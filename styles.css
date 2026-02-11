@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f5f7fa;
+  color: #222;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background: white;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  z-index: 10;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0a7cff;
+}
+
+nav a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+
+section {
+  padding: 120px 12%;
+}
+
+.hero {
+  background: linear-gradient(135deg, #0a7cff, #2dd4bf);
+  color: white;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.hero h1 {
+  font-size: 60px;
+}
+
+.hero-buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.hero button {
+  padding: 14px 28px;
+  border: none;
+  background: white;
+  color: #0a7cff;
+  font-size: 18px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.secondary-btn {
+  background: transparent;
+  border: 2px solid white;
+  padding: 14px 26px;
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.gallery {
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+  gap: 20px;
+}
+
+.poster {
+  background: white;
+  padding: 15px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+.poster img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background: #0a7cff;
+  color: white;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.social-links a {
+  font-size: 18px;
+  font-weight: bold;
+  color: #0a7cff;
+  text-decoration: none;
+}
+
+footer {
+  background: #0a7cff;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
