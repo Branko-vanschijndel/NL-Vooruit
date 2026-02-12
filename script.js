@@ -1,5 +1,5 @@
 // ==========================
-// Smooth scroll
+// Smooth Scroll
 // ==========================
 function scrollToSection(id) {
   const el = document.getElementById(id);
@@ -9,7 +9,7 @@ function scrollToSection(id) {
 }
 
 // ==========================
-// Highlight menu (alleen voor homepage met #links)
+// Highlight Menu (voor homepage met #links)
 // ==========================
 const sections = document.querySelectorAll("section");
 const navLinks = document.querySelectorAll("nav a");
@@ -33,29 +33,28 @@ window.addEventListener("scroll", () => {
 });
 
 // ==========================
-// DARK MODE TOGGLE
+// DARK MODE TOGGLE (met switch)
 // ==========================
-
 document.addEventListener("DOMContentLoaded", () => {
-  const toggleBtn = document.getElementById("darkToggle");
+  const toggleSwitch = document.getElementById("darkModeSwitch");
 
-  if (!toggleBtn) return; // voorkomt errors op pagina's zonder knop
+  if (!toggleSwitch) return; // voorkomt errors op pagina's zonder switch
 
-  // Check opgeslagen voorkeur
-  if (localStorage.getItem("darkMode") === "enabled") {
+  // Zet dark mode als het in localStorage staat
+  if (localStorage.getItem("dark-mode") === "enabled") {
     document.body.classList.add("dark-mode");
-    toggleBtn.textContent = "☀️";
+    toggleSwitch.checked = true;
   }
 
-  toggleBtn.addEventListener("click", () => {
-    document.body.classList.toggle("dark-mode");
+  // Luister naar toggle switch
+  toggleSwitch.addEventListener("change", () => {
+    document.body.classList.toggle("dark-mode", toggleSwitch.checked);
 
-    if (document.body.classList.contains("dark-mode")) {
-      localStorage.setItem("darkMode", "enabled");
-      toggleBtn.textContent = "☀️";
+    // Sla voorkeur op
+    if (toggleSwitch.checked) {
+      localStorage.setItem("dark-mode", "enabled");
     } else {
-      localStorage.setItem("darkMode", "disabled");
-      toggleBtn.textContent = "🌙";
+      localStorage.setItem("dark-mode", "disabled");
     }
   });
 });
