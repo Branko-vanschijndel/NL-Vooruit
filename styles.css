@@ -401,3 +401,10 @@ input:checked + .switch-label .slider {
 input:checked + .switch-label .slider::before {
   transform: translateX(24px);
 }
+
+
+.poster video {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+}
