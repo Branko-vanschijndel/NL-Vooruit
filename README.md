@@ -5,7 +5,7 @@ Dit is de officiële campagnewebsite van **NL Vooruit**, een fictieve politieke 
 ## Live demo
 
 - **Vercel:** [https://nl-vooruit.vercel.app](https://nl-vooruit.vercel.app)  
-- **Netlify:** [link toevoegen zodra ge-deployd]
+- **Github Pages:** [[https://branko-vanschijndel](https://nl-vooruit.vercel.app)](https://branko-vanschijndel.github.io/NL-Vooruit/)
 
 ## Features
 
@@ -51,7 +51,7 @@ Dit is de officiële campagnewebsite van **NL Vooruit**, een fictieve politieke 
 
 ## Deployment
 
-- Deze website kan gehost worden via **Vercel** of **Netlify**.  
+- Deze website kan gehost worden via **Vercel** of **Github Pages**.  
 - Koppel de GitHub repository aan het platform, en alle pagina’s en assets worden automatisch live gezet.  
 
 ## Gebruikte technologieën
