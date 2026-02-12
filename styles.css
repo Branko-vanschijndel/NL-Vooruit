@@ -322,6 +322,19 @@ body.dark-mode nav a:hover {
   color: #fff;
 }
 
+/* Dark mode text inside cards */
+body.dark-mode .card,
+body.dark-mode .card h3,
+body.dark-mode .card p,
+body.dark-mode .team-card,
+body.dark-mode .team-card h3,
+body.dark-mode .team-card p,
+body.dark-mode .poster,
+body.dark-mode .poster p {
+  color: #eee !important;
+}
+
+
 /* ==========================
    Responsive
 ========================== */
