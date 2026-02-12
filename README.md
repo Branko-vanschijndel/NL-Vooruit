@@ -5,7 +5,7 @@ Dit is de officiële campagnewebsite van **NL Vooruit**, een fictieve politieke 
 ## Live demo
 
 - **Vercel:** [https://nl-vooruit.vercel.app](https://nl-vooruit.vercel.app)  
-- **Github Pages:** (https://nl-vooruit.vercel.app)](https://branko-vanschijndel.github.io/NL-Vooruit/)
+- **Github Pages:** (https://branko-vanschijndel.github.io/NL-Vooruit/)
 
 ## Features
 
