@@ -1,40 +1,66 @@
-# NL Vooruit - Website
+# NL Vooruit – Campagne Website
 
-Deze repository bevat de website van de Nederlandse politieke partij **NL Vooruit**.  
-De website presenteert onze standpunten, programma en promotiematerialen.
+Dit is de officiële campagnewebsite van **NL Vooruit**, een fictieve politieke partij. De website geeft informatie over onze standpunten, kernpunten in het kort en biedt toegang tot onze posters en het volledige verkiezingsprogramma.
 
-## Pagina’s
+## Live demo
 
-De website bevat verschillende pagina’s over onze thema’s:
+- **Vercel:** [https://nl-vooruit.vercel.app](https://nl-vooruit.vercel.app)  
+- **Netlify:** [link toevoegen zodra ge-deployd]
 
-- `index.html` – Homepagina  
-- `werk.html` – Werk & Inkomen  
-- `zorg.html` – Zorg & Gezondheid  
-- `onderwijs.html` – Onderwijs  
-- `veiligheid.html` – Veiligheid en Justitie  
-- `milieu.html` – Milieu en Klimaat  
-- `europa.html` – Europa en Technologie  
-- `wonen.html` – Wonen en Woningbouw  
-- `galerij.html` – Posters en afbeeldingen  
+## Features
 
-## Bestanden
+- **Homepage** met overzicht van kernpunten in kaarten.
+- **Subpages** voor elk beleidsonderwerp:
+  - Werk & Inkomen
+  - Zorg
+  - Onderwijs
+  - Veiligheid
+  - Milieu
+  - Europa
+  - Wonen
+  - Galerij van campagneposters
+  - Ledenpagina
+- **Poster Download**: bekijk en download al onze campagneposters.
+- **Volledig programma**: PDF met standpunten.
+- **Dark Mode Toggle**: schakel eenvoudig tussen lichte en donkere modus.
+- **Responsief design**: werkt op desktop, tablet en mobiel.
+- **Social media links**: volg ons op Instagram via [@NL.Vooruit](https://instagram.com/NL.Vooruit).
 
-- `styles.css` – CSS styling  
-- `script.js` – JavaScript voor navigatie en scroll  
-- `plan.pdf` – Complete PDF van het partijprogramma  
-- `posters/` – Map met posters: `Poster1.jpg`, `Poster2.jpg`, `Poster3.jpg`  
+## Bestandstructuur
 
-## Live website
+/ (root)
+│-- index.html
+│-- werk.html
+│-- zorg.html
+│-- onderwijs.html
+│-- veiligheid.html
+│-- milieu.html
+│-- europa.html
+│-- wonen.html
+│-- galerij.html
+│-- leden.html
+│-- styles.css
+│-- script.js
+│-- plan.pdf
+│-- Logo.png
+└-- posters/
+├─ Poster1.png
+├─ Poster2.png
+└─ Poster3.png
 
-[https://Branko-vanschijndel.github.io/NL-Vooruit/](https://Branko-vanschijndel.github.io/NL-Vooruit/)  
 
-## Instagram
+## Deployment
 
-[@NL.Vooruit](https://www.instagram.com/NL.Vooruit)
+- Deze website kan gehost worden via **Vercel** of **Netlify**.  
+- Koppel de GitHub repository aan het platform, en alle pagina’s en assets worden automatisch live gezet.  
 
-## GitHub
+## Gebruikte technologieën
 
-Clone de repository:
+- HTML5
+- CSS3 (flexbox, grid, gradient achtergronden)
+- JavaScript (smooth scroll, dark mode toggle, interactieve knoppen)
+- PDF & beeld assets voor posters en verkiezingsprogramma
 
-```bash
-git clone git@github.com:Branko-vanschijndel/NL-Vooruit.git
+---
+
+© 2026 NL Vooruit – Samen vooruit
